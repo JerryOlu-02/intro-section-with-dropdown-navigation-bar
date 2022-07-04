@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ad1ab98106.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <div class="logo--selection">
+          <img src="images/logo.svg" alt="snap_logo" />
+
+          <div id="list--selection">
+            <ul class="list--1">
+              <li class="list--item features--item">
+                Features
+                <i class="fa-solid fa-angle-down"></i>
+              </li>
+              <div class="hidden features--selection overlay--1">
+                <ul class="list--2">
+                  <li><i class="fa-solid fa-clipboard-list"></i> Todo List</li>
+                  <li><i class="fa-solid fa-calendar-day"></i>Calendar</li>
+                  <li><i class="fa-solid fa-bell"></i>Reminders</li>
+                  <li><i class="fa-solid fa-clock"></i>Planning</li>
+                </ul>
+              </div>
+
+              <li class="list--item company--item">
+                Company
+                <i class="fa-solid fa-angle-down"></i>
+              </li>
+              <div class="hidden company--selection overlay--2">
+                <ul class="list--2">
+                  <li>History</li>
+                  <li>Our team</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+
+              <li class="list--item">Careers</li>
+              <li class="list--item">About</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="login--selection">
+          <p>Login</p>
+          <button class="btn--register">Register</button>
+        </div>
+
+        <i class="fa-solid fa-bars"></i>
+      </header>
+
+      <section class="middle--section">
+        <div class="left--section">
+          <h1>Make remote work</h1>
+
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+
+          <button class="btn--left--section">Learn more</button>
+
+          <div class="images--selection">
+            <img src="images/client-databiz.svg" alt="" />
+            <img src="images/client-audiophile.svg" alt="" />
+            <img src="images/client-maker.svg" alt="" />
+            <img src="images/client-maker.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="right--section">
+          <img src="images/image-hero-desktop.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
